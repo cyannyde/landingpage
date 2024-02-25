@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Modak&display=swap');
+
+
+
+.banner{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-image: none;
+    background-color: rgb(240, 226, 206);
+    height: 500px;
+    flex-direction: column;
+    gap: 20px;
+    background-size:cover;
+    border-radius: 0 0 50% 50%/ 0 0 100% 100%;
+    transform: scaleX(1.5);
+}
+
+
+.banner h1{
+    margin: 0px;
+    justify-content: flex-end;
+    background-color:none;
+    color: black;
+    letter-spacing: 0.1;
+    font-size: 350%;
+    font-family: DynaPuff, sans-serif;
+    text-shadow: 1px 1px 1px black;
+
+}
+.banner img{
+    margin: 0px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.banner h2{
+    margin: 0px;
+    color: black;
+    font-family: DynaPuff, sans-serif;
+    font-size: 150%;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 0.05em;
+    word-spacing: 0.05em;
+    font-weight:lighter;
+    justify-content: flex-end;
+    text-align: center;
+    flex-direction: column;
+}
+.MENU {
+   height: 300px;
+   background-image: url(https://png.pngtree.com/png-clipart/20230428/original/pngtree-montreal-bagels-png-image_9117532.png);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-position: left;
+   background-size: 12.5%;
+   width:100%;
+   
+}
+.MENU a{
+    text-decoration: none;
+    color: #F2ECE7;
+    background-color: rgb(173, 107, 60);
+    padding: 36px 62px;
+    border-radius: 8px;
+    font-size: 35px;
+    font-family: DynaPuff, sans-serif;
+    
+}
+ 
+  
+.address {
+    background-color:white;
+    color:rgb(111, 49, 14);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+  
+    padding: 10px;
+    display: flex;
+    display: center;
+    width:100%;
+    margin: 0;
+  }
+  
+  
+  .card-white{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: -10px 10px 10px;
+    border-radius: 8px;
+    margin: 25px;
+    background-color: rgb(240, 226, 206);
+    font-family: DynaPuff, sans-serif;
+  }
+
+  .card-white a{
+    font-size: 18px;
+    font-family: serif;
+    color: black;
+  }
+  
+  .card-white img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+ .banner h3 {
+    color:black;
+    font-family: DynaPuff,sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(240, 226, 206);
+    letter-spacing: 0.08em;
+  }
+  
+  .card-white p{
+    color: rgb(23, 0, 58);
+    font-size: 20px;
+  }
+
+  .ABOUTUS {
+    background-color: rgb(240, 226, 206);
+    text-align: center;
+    font-family: DynaPuff, sans-serif;
+    color: rgb(23, 0, 58);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+    letter-spacing: 0.5;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    left: 0px;
+    margin: 40px;
+    border-radius: 8px;
+   }
+   .ABOUTUS p{
+    font-weight: lighter;
+   }
+
+  .address{
+    height: 200px;
+    background-image: url(https://png.pngtree.com/png-clipart/20230428/original/pngtree-montreal-bagels-png-image_9117532.png);
+    background-size: 12%;
+  }
+  .address a{
+    font-size: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 0.1;
+    font-family: DynaPuff, serif;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+    color: #F2ECE7;
+    background-color: rgb(173, 107, 60);
+    padding: 28px 50px;
+    border-radius: 5px;
+    font-size: 30px;
+    position: absolute;
+    margin: 40px;
+    width: fit-content;
+}
+
+  .footer {
+    text-align: center;
+    font-family: DynaPuff, sans-serif;
+    color: rgb(23, 0, 58);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+    letter-spacing: 0.5;
+    padding-left: 40px;
+    padding-top: 40px;
+    display: flex;
+    margin-top: auto;
+    position:relative;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+  }
+
+  .footer p{
+    background-color: transparent;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    font-family: DynaPuff, sans-serif;
+    color: rgb(23, 0, 58);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+    letter-spacing: 0.5;
+    padding-left: 20px;
+    left: 0px;
+    margin: 10px;
+    
+  }
